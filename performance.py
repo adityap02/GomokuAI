@@ -60,6 +60,6 @@ pt.subplot(1,3,3)
 pt.hist(all_runtimes[gm.MAX], ec='k')
 pt.xlabel(f"{type(policies[gm.MAX]).__name__} run time (max player)")
 pt.tight_layout()
-
+print(all_scores.sum() / 30)
 pt.show()
 

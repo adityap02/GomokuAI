@@ -46,6 +46,5 @@ class Submission:
         self.board_size = board_size
 
     def __call__(self, state):
-
         action = myfun(state)
         return action
