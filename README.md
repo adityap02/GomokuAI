@@ -31,7 +31,15 @@ Each component of the code serves a specific purpose in bringing the AI to life:
 - TensorFlow
 - sckit-learn
 
-##Dataset
+## Dataset
 
-Collected data for training a CNN from the Gomocup website. Utilized standard game data..
+Collected data for training the CNN from [Gomocup website](https://gomocup.org/results/gomocup-result-2021/). Utilized standard game data.
 
+## License
+This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
+
+## Contributing
+Contributions to improve this project are highly appreciated. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## License
+This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
