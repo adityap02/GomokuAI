@@ -7,6 +7,7 @@ import matplotlib.pyplot as pt
 import gomoku as gm
 from policies import *
 from compete import compete
+import fickling
 
 # number of games used to calculate performance statistics
 num_reps = 30
@@ -46,7 +47,7 @@ if True:
     
     with open("perf.pkl","wb") as f: pk.dump((all_scores, all_runtimes), f)
 
-with open("perf.pkl","rb") as f: (all_scores, all_runtimes) = pk.load(f)
+with open("perf.pkl","rb") as f: (all_scores, all_runtimes) = fickling.load(f)
 
 pt.subplot(1,3,1)
 pt.hist(all_scores, ec='k')
